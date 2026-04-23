@@ -50,7 +50,7 @@ function updateSummary() {
 }
 
 // 📦 fetch items
-fetch('../data/db.json')
+fetch('./data/db.json')
   .then(res => res.json())
   .then(data => {
     data.forEach(item => {
