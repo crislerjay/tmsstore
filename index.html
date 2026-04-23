@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Store</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <main>
+    <input type="text" id="searchInput" placeholder="Search item..." />
+
+    <div class="summary">
+
+      <h3>Cart Items:</h3>
+      <ul class="cart-items"></ul>
+
+      <div class="payment">
+        <p>Total Price: ₱<span class="total-price">0</span></p>
+        <p>
+          Cash:<input type="number" class="cash-input" placeholder="Enter cash" />
+        </p>
+        <p>
+          Change: ₱<span class="change">0</span>
+        </p>
+      </div>
+
+      <button class="clear-cart">🗑️ Clear Cart</button>
+    </div>
+
+    <ul class="lists"></ul>
+  </main>
+</body>
+</html>

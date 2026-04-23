@@ -1,0 +1,90 @@
+main {
+  position: relative;
+  min-height: 100dvh;
+  background-color: #f0f0f0;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+  padding: 15px;
+}
+
+
+#searchInput {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#cart {
+  position: relative;
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lists li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.summary {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.count {
+  margin: 0 5px;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.cart-items  li{
+  width: 48%;
+  border: 1px solid #ccc;
+}
+
+.clear-cart {
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+}
+
+.payment p {
+  margin-bottom: 10px;
+}
+
+.cash-input {
+  margin-left: 10px;
+}

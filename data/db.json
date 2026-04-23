@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "price": 25
+  },
+  {
+    "id": 2,
+    "name": "Milk",
+    "price": 60
+  },
+  {
+    "id": 3,
+    "name": "Bread",
+    "price": 45
+  },
+  {
+    "id": 4,
+    "name": "Eggs",
+    "price": 10
+  },
+  {
+    "id": 5,
+    "name": "Cheese",
+    "price": 80
+  },
+  {
+    "id": 6,
+    "name": "Banana",
+    "price": 15
+  },
+  {
+    "id": 7,
+    "name": "Orange Juice",
+    "price": 50
+  },
+  {
+    "id": 8,
+    "name": "Cereal",
+    "price": 70
+  },
+  {
+    "id": 9,
+    "name": "Yogurt",
+    "price": 30
+  },
+  {
+    "id": 10,
+    "name": "Chicken Breast",
+    "price": 120
+  }
+]
