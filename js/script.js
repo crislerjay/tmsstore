@@ -54,6 +54,8 @@ function updateSummary() {
 fetch('./data/db.json')
   .then(res => res.json())
   .then(data => {
+    // ✅ SORT ITEMS (A-Z by name)
+    data.sort((a, b) => a.name.localeCompare(b.name));
     data.forEach(item => {
       let quantity = cart[item.id]?.quantity || 0;
 
