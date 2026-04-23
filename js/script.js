@@ -32,7 +32,8 @@ function updateSummary() {
     Object.values(cart).forEach(item => {
       summary.style.display = 'block';
       const li = document.createElement('li');
-      li.textContent = `${item.name} x ${item.quantity}`;
+      const total = item.price * item.quantity;
+      li.textContent = `${item.name} x${item.quantity} = ₱${total.toLocaleString()}`;
       cartList.appendChild(li);
     });
   }
