@@ -150,6 +150,5 @@
   { "id": 136, "name": "winston", "price": 10 },
   { "id": 137, "name": "chesterfield", "price": 8 },
   { "id": 138, "name": "zonrox color md", "price": 45 },
-  { "id": 139, "name": "zonrox color sm", "price": 25 },
-  { "id": 140, "name": "ice", "price": 5 }
+  { "id": 139, "name": "zonrox color sm", "price": 25 }
 ]
