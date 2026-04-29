@@ -77,6 +77,20 @@ fetch('./data/db.json')
       const plusBtn = document.createElement('button');
       plusBtn.textContent = '+';
 
+      const plus10Btn = document.createElement('button');
+      plus10Btn.className = 'plus10';
+      plus10Btn.textContent = '+10';
+
+      plus10Btn.addEventListener('click', () => {
+        quantity += 10;
+        count.textContent = quantity;
+        if (!cart[item.id]) {
+          cart[item.id] = { ...item, quantity: 0 };
+        } 
+        cart[item.id].quantity += 10;
+        updateSummary();
+      });
+
       // ➕ ADD
       plusBtn.addEventListener('click', () => {
         quantity++;
@@ -109,6 +123,7 @@ fetch('./data/db.json')
       counter.appendChild(minusBtn);
       counter.appendChild(count);
       counter.appendChild(plusBtn);
+      counter.appendChild(plus10Btn);
 
       listItem.appendChild(name);
       listItem.appendChild(counter);

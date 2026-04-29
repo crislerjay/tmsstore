@@ -1,5 +1,4 @@
 main {
-  position: relative;
   min-height: 100dvh;
   background-color: #f0f0f0;
 }
@@ -48,7 +47,7 @@ ul {
 }
 
 .summary {
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 0;
   right: 0;
@@ -90,4 +89,8 @@ h3 {
 
 .cash-input {
   margin-left: 10px;
+}
+
+.plus10 {
+  margin-left: 5px;
 }
